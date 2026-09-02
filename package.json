@@ -1,0 +1,11 @@
+{
+  "name": "@qingbo-ai/skills",
+  "private": true,
+  "type": "module",
+  "description": "Curated, cleaned, one-command-install skills, prompts & plugins",
+  "scripts": {
+    "build": "node scripts/build-readme.mjs",
+    "check": "node scripts/build-readme.mjs && git diff --exit-code README.md"
+  },
+  "engines": { "node": ">=18" }
+}
