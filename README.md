@@ -31,7 +31,15 @@ Every entry ships three files: `SKILL.md` (for agents), `PROMPT.md` (copy-paste 
 
 <!-- CATALOG:START -->
 
-_No skills yet. See CONTRIBUTING.md to add the first one._
+**1 skills** · updated 2026-09-26
+
+### Content · 内容创作
+
+| Skill | What it does · 做什么 | Tags | Use with |
+|---|---|---|---|
+| [**waveapi-media**](./skills/waveapi-media) | Find WaveAPI image, video and audio models, read their parameters, price a request, submit generation tasks and check results<br>用 WaveAPI 查图像、视频、音频模型，读参数，报价，提交生成任务并查结果 | `waveapi` `image` `video` `audio` `generation` | agents · copy-paste |
+
+> Install any single skill: `npx skills add QingBo-AI/skills --skill <name>`
 
 <!-- CATALOG:END -->
 
